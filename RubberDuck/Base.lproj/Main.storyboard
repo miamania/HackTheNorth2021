@@ -1,24 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RubberDuck" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main" translatesAutoresizingMaskIntoConstraints="NO" id="gi4-FJ-oaL">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="Rin-M9-d2z">
+                                <rect key="frame" x="84.5" y="119" width="245" height="658"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qb4-9W-LYn">
+                                        <rect key="frame" x="0.0" y="0.0" width="245" height="353"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" placeholderIntrinsicWidth="245" placeholderIntrinsicHeight="245" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJS-oZ-6DF">
+                                        <rect key="frame" x="0.0" y="413" width="245" height="245"/>
+                                        <state key="normal" title="Button" backgroundImage="Next-Button">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="6dT-uD-zXk" kind="presentation" id="uan-EA-XNp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlt-R6-ala">
+                                <rect key="frame" x="70" y="820" width="274" height="42"/>
+                                <state key="normal" title="App History &amp; Details" backgroundImage="AppHistory">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="hlt-R6-ala" secondAttribute="bottom" id="3FG-S3-8NT"/>
+                            <constraint firstItem="gi4-FJ-oaL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3k8-jd-VSN"/>
+                            <constraint firstItem="Rin-M9-d2z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="5NE-qb-SS1"/>
+                            <constraint firstItem="Rin-M9-d2z" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6a9-1c-ulk"/>
+                            <constraint firstItem="hlt-R6-ala" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="J1e-IO-qla"/>
+                            <constraint firstItem="hlt-R6-ala" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="NXx-YT-UJW"/>
+                            <constraint firstItem="gi4-FJ-oaL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Pop-2K-f4I"/>
+                            <constraint firstAttribute="bottom" secondItem="gi4-FJ-oaL" secondAttribute="bottom" id="TPm-yZ-NF5"/>
+                            <constraint firstItem="Rin-M9-d2z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e5a-EP-u1W"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hlt-R6-ala" secondAttribute="trailing" constant="70" id="vhZ-6J-eAe"/>
+                            <constraint firstItem="gi4-FJ-oaL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="xXD-Dv-qOG"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="GifView" destination="qb4-9W-LYn" id="5v2-wS-kWS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="75.669642857142847"/>
+        </scene>
+        <!--Record View Controller-->
+        <scene sceneID="DdR-f3-T9b">
+            <objects>
+                <viewController id="6dT-uD-zXk" customClass="RecordViewController" customModule="RubberDuck" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lvr-85-CRy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="tlb-8R-rII">
+                                <rect key="frame" x="0.0" y="-53" width="414" height="895"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xLi-rL-zIM">
+                                <rect key="frame" x="118" y="383" width="182" height="230"/>
+                                <state key="normal" title="RECORD">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kvd-05-xDw">
+                                <rect key="frame" x="118" y="383" width="182" height="246"/>
+                                <state key="normal" title="Start Recording">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="record:" destination="6dT-uD-zXk" eventType="touchUpInside" id="HR2-sl-6gm"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="150" placeholderIntrinsicHeight="124" translatesAutoresizingMaskIntoConstraints="NO" id="2N0-Uh-DtH">
+                                <rect key="frame" x="0.0" y="659" width="414" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="237" placeholderIntrinsicHeight="124" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXC-rx-keu">
+                                        <rect key="frame" x="0.0" y="0.0" width="214" height="100"/>
+                                        <state key="normal" title="Button" backgroundImage="PlayCurrRec">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playRecording:" destination="6dT-uD-zXk" eventType="touchUpInside" id="0UK-ug-sa1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqb-EA-P9d">
+                                        <rect key="frame" x="214" y="0.0" width="200" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="4dK-aN-AnJ"/>
+                                            <constraint firstAttribute="height" constant="100" id="KPR-aM-2nN"/>
+                                        </constraints>
+                                        <state key="normal" title="AnalyzeRec" backgroundImage="AnalyzeRec">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="MJK-2a-Mib" kind="presentation" id="lSx-FV-1rN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="K7s-Id-VA9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="tlb-8R-rII" secondAttribute="bottom" id="2F8-3M-fRz"/>
+                            <constraint firstItem="Kvd-05-xDw" firstAttribute="top" secondItem="xLi-rL-zIM" secondAttribute="top" id="8C8-0t-DXA"/>
+                            <constraint firstAttribute="trailing" secondItem="2N0-Uh-DtH" secondAttribute="trailing" id="BQ5-3Z-Uym"/>
+                            <constraint firstItem="2N0-Uh-DtH" firstAttribute="leading" secondItem="lvr-85-CRy" secondAttribute="leading" id="GFT-hd-LzW"/>
+                            <constraint firstItem="Kvd-05-xDw" firstAttribute="trailing" secondItem="xLi-rL-zIM" secondAttribute="trailing" id="QV7-18-d5j"/>
+                            <constraint firstItem="K7s-Id-VA9" firstAttribute="bottom" secondItem="xLi-rL-zIM" secondAttribute="bottom" constant="195" id="RtN-oD-7zJ"/>
+                            <constraint firstItem="K7s-Id-VA9" firstAttribute="bottom" secondItem="Kvd-05-xDw" secondAttribute="bottom" constant="179" id="dDk-oJ-Rcd"/>
+                            <constraint firstItem="tlb-8R-rII" firstAttribute="leading" secondItem="K7s-Id-VA9" secondAttribute="leading" id="kWK-jx-Uvh"/>
+                            <constraint firstItem="2N0-Uh-DtH" firstAttribute="top" secondItem="Kvd-05-xDw" secondAttribute="bottom" constant="30" id="mfB-xb-xkr"/>
+                            <constraint firstItem="xLi-rL-zIM" firstAttribute="leading" secondItem="K7s-Id-VA9" secondAttribute="leading" constant="118" id="mkd-KL-Rxd"/>
+                            <constraint firstItem="Kvd-05-xDw" firstAttribute="leading" secondItem="xLi-rL-zIM" secondAttribute="leading" id="o05-Zo-l9H"/>
+                            <constraint firstItem="tlb-8R-rII" firstAttribute="top" secondItem="lvr-85-CRy" secondAttribute="top" constant="-53" id="r8C-sf-oPT"/>
+                            <constraint firstItem="xLi-rL-zIM" firstAttribute="top" secondItem="K7s-Id-VA9" secondAttribute="top" constant="383" id="rdI-C7-HZh"/>
+                            <constraint firstItem="tlb-8R-rII" firstAttribute="trailing" secondItem="K7s-Id-VA9" secondAttribute="trailing" id="rp3-gB-mIX"/>
+                            <constraint firstItem="K7s-Id-VA9" firstAttribute="trailing" secondItem="xLi-rL-zIM" secondAttribute="trailing" constant="114" id="sWI-0n-tkN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="analyzeButtonLabel" destination="Vqb-EA-P9d" id="ofK-y6-lSz"/>
+                        <outlet property="buttonLabel" destination="Kvd-05-xDw" id="gxy-er-JNz"/>
+                        <outlet property="playButtonLabel" destination="hXC-rx-keu" id="zWo-ua-sAQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sxh-ng-jVq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="792.75362318840587" y="75.669642857142847"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="gwO-Fz-p6j">
+            <objects>
+                <viewController id="MJK-2a-Mib" customClass="ResultViewController" customModule="RubberDuck" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iVe-VG-cjC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oH7-M8-GTe">
+                                <rect key="frame" x="0.0" y="-53" width="414" height="895"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gX1-R3-Agd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oH7-M8-GTe" firstAttribute="centerY" secondItem="iVe-VG-cjC" secondAttribute="centerY" constant="-26.5" id="7YQ-DM-N8y"/>
+                            <constraint firstItem="oH7-M8-GTe" firstAttribute="centerX" secondItem="iVe-VG-cjC" secondAttribute="centerX" id="9Nm-Pp-wPz"/>
+                            <constraint firstItem="oH7-M8-GTe" firstAttribute="top" secondItem="gX1-R3-Agd" secondAttribute="top" constant="-53" id="L61-ne-rf3"/>
+                            <constraint firstItem="oH7-M8-GTe" firstAttribute="leading" secondItem="gX1-R3-Agd" secondAttribute="leading" id="WDV-e5-jBN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="BgImage" destination="oH7-M8-GTe" id="bXQ-oJ-VMW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dpe-EK-Nef" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1615.9420289855075" y="75.669642857142847"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="2" width="1125" height="2436"/>
+        <image name="AnalyzeRec" width="244" height="124"/>
+        <image name="AppHistory" width="274" height="42"/>
+        <image name="Main" width="1125" height="2436"/>
+        <image name="Next-Button" width="274" height="290"/>
+        <image name="PlayCurrRec" width="244" height="124"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

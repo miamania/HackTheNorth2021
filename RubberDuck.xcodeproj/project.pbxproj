@@ -3,19 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FD84C80BBBE0E87898839CE /* Pods_RubberDuck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36F980108023416683DD60F /* Pods_RubberDuck.framework */; };
+		DF5AE18225B295A400F51628 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5AE18125B295A400F51628 /* Swift+Gif.swift */; };
+		DF5AE18925B2971C00F51628 /* GifTheyFeel.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF5AE18825B2971C00F51628 /* GifTheyFeel.gif */; };
+		DF5AE19025B29CF300F51628 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5AE18F25B29CF300F51628 /* RecordViewController.swift */; };
+		DF5AE19325B29F2200F51628 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5AE19225B29F2200F51628 /* ResultViewController.swift */; };
 		DF5B5DAF25B269E000D4BF60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B5DAE25B269E000D4BF60 /* AppDelegate.swift */; };
 		DF5B5DB125B269E000D4BF60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B5DB025B269E000D4BF60 /* SceneDelegate.swift */; };
 		DF5B5DB325B269E000D4BF60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B5DB225B269E000D4BF60 /* ViewController.swift */; };
 		DF5B5DB625B269E000D4BF60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5B5DB425B269E000D4BF60 /* Main.storyboard */; };
 		DF5B5DB825B269E400D4BF60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5B5DB725B269E400D4BF60 /* Assets.xcassets */; };
 		DF5B5DBB25B269E400D4BF60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5B5DB925B269E400D4BF60 /* LaunchScreen.storyboard */; };
+		DF5B5DC425B26AF900D4BF60 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF5B5DC325B26AF900D4BF60 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77CAA0BE5916417835D4BAEE /* Pods-RubberDuck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubberDuck.debug.xcconfig"; path = "Target Support Files/Pods-RubberDuck/Pods-RubberDuck.debug.xcconfig"; sourceTree = "<group>"; };
+		7993437CCB167EE44F04EED5 /* Pods-RubberDuck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubberDuck.release.xcconfig"; path = "Target Support Files/Pods-RubberDuck/Pods-RubberDuck.release.xcconfig"; sourceTree = "<group>"; };
+		DF5AE18125B295A400F51628 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		DF5AE18825B2971C00F51628 /* GifTheyFeel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GifTheyFeel.gif; sourceTree = "<group>"; };
+		DF5AE18F25B29CF300F51628 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		DF5AE19225B29F2200F51628 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		DF5B5DAB25B269E000D4BF60 /* RubberDuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubberDuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5B5DAE25B269E000D4BF60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF5B5DB025B269E000D4BF60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,8 @@
 		DF5B5DB725B269E400D4BF60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF5B5DBA25B269E400D4BF60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF5B5DBC25B269E400D4BF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5B5DC325B26AF900D4BF60 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F36F980108023416683DD60F /* Pods_RubberDuck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RubberDuck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD84C80BBBE0E87898839CE /* Pods_RubberDuck.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC4A7216EDE95B9939FB57A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77CAA0BE5916417835D4BAEE /* Pods-RubberDuck.debug.xcconfig */,
+				7993437CCB167EE44F04EED5 /* Pods-RubberDuck.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DF5B5DA225B269DF00D4BF60 = {
 			isa = PBXGroup;
 			children = (
 				DF5B5DAD25B269E000D4BF60 /* RubberDuck */,
 				DF5B5DAC25B269E000D4BF60 /* Products */,
+				CC4A7216EDE95B9939FB57A5 /* Pods */,
+				EA6665EDDAD160B52D192156 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +86,24 @@
 				DF5B5DB025B269E000D4BF60 /* SceneDelegate.swift */,
 				DF5B5DB225B269E000D4BF60 /* ViewController.swift */,
 				DF5B5DB425B269E000D4BF60 /* Main.storyboard */,
+				DF5AE19225B29F2200F51628 /* ResultViewController.swift */,
+				DF5AE18F25B29CF300F51628 /* RecordViewController.swift */,
 				DF5B5DB725B269E400D4BF60 /* Assets.xcassets */,
+				DF5AE18825B2971C00F51628 /* GifTheyFeel.gif */,
 				DF5B5DB925B269E400D4BF60 /* LaunchScreen.storyboard */,
 				DF5B5DBC25B269E400D4BF60 /* Info.plist */,
+				DF5B5DC325B26AF900D4BF60 /* GoogleService-Info.plist */,
+				DF5AE18125B295A400F51628 /* Swift+Gif.swift */,
 			);
 			path = RubberDuck;
+			sourceTree = "<group>";
+		};
+		EA6665EDDAD160B52D192156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F36F980108023416683DD60F /* Pods_RubberDuck.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF5B5DBF25B269E400D4BF60 /* Build configuration list for PBXNativeTarget "RubberDuck" */;
 			buildPhases = (
+				45CBA67B1C1943FEC5A3495D /* [CP] Check Pods Manifest.lock */,
 				DF5B5DA725B269E000D4BF60 /* Sources */,
 				DF5B5DA825B269E000D4BF60 /* Frameworks */,
 				DF5B5DA925B269E000D4BF60 /* Resources */,
+				BD603A0273996FE0AAEF36F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +166,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF5B5DBB25B269E400D4BF60 /* LaunchScreen.storyboard in Resources */,
+				DF5B5DC425B26AF900D4BF60 /* GoogleService-Info.plist in Resources */,
+				DF5AE18925B2971C00F51628 /* GifTheyFeel.gif in Resources */,
 				DF5B5DB825B269E400D4BF60 /* Assets.xcassets in Resources */,
 				DF5B5DB625B269E000D4BF60 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +175,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45CBA67B1C1943FEC5A3495D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RubberDuck-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD603A0273996FE0AAEF36F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RubberDuck/Pods-RubberDuck-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RubberDuck/Pods-RubberDuck-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RubberDuck/Pods-RubberDuck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF5B5DA725B269E000D4BF60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5AE18225B295A400F51628 /* Swift+Gif.swift in Sources */,
 				DF5B5DB325B269E000D4BF60 /* ViewController.swift in Sources */,
+				DF5AE19025B29CF300F51628 /* RecordViewController.swift in Sources */,
 				DF5B5DAF25B269E000D4BF60 /* AppDelegate.swift in Sources */,
 				DF5B5DB125B269E000D4BF60 /* SceneDelegate.swift in Sources */,
+				DF5AE19325B29F2200F51628 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +371,7 @@
 		};
 		DF5B5DC025B269E400D4BF60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77CAA0BE5916417835D4BAEE /* Pods-RubberDuck.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +391,7 @@
 		};
 		DF5B5DC125B269E400D4BF60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7993437CCB167EE44F04EED5 /* Pods-RubberDuck.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
