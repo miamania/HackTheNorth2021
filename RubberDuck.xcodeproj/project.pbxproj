@@ -11,7 +11,7 @@
 		DF5AE18225B295A400F51628 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5AE18125B295A400F51628 /* Swift+Gif.swift */; };
 		DF5AE18925B2971C00F51628 /* GifTheyFeel.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF5AE18825B2971C00F51628 /* GifTheyFeel.gif */; };
 		DF5AE19025B29CF300F51628 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5AE18F25B29CF300F51628 /* RecordViewController.swift */; };
-		DF5AE19325B29F2200F51628 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5AE19225B29F2200F51628 /* ResultViewController.swift */; };
+		DF5AE1CD25B472F100F51628 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5AE1CC25B472F100F51628 /* ResultViewController.swift */; };
 		DF5B5DAF25B269E000D4BF60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B5DAE25B269E000D4BF60 /* AppDelegate.swift */; };
 		DF5B5DB125B269E000D4BF60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B5DB025B269E000D4BF60 /* SceneDelegate.swift */; };
 		DF5B5DB325B269E000D4BF60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B5DB225B269E000D4BF60 /* ViewController.swift */; };
@@ -27,7 +27,7 @@
 		DF5AE18125B295A400F51628 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
 		DF5AE18825B2971C00F51628 /* GifTheyFeel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GifTheyFeel.gif; sourceTree = "<group>"; };
 		DF5AE18F25B29CF300F51628 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
-		DF5AE19225B29F2200F51628 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		DF5AE1CC25B472F100F51628 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		DF5B5DAB25B269E000D4BF60 /* RubberDuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubberDuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5B5DAE25B269E000D4BF60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF5B5DB025B269E000D4BF60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 				DF5B5DB025B269E000D4BF60 /* SceneDelegate.swift */,
 				DF5B5DB225B269E000D4BF60 /* ViewController.swift */,
 				DF5B5DB425B269E000D4BF60 /* Main.storyboard */,
-				DF5AE19225B29F2200F51628 /* ResultViewController.swift */,
+				DF5AE1CC25B472F100F51628 /* ResultViewController.swift */,
 				DF5AE18F25B29CF300F51628 /* RecordViewController.swift */,
 				DF5B5DB725B269E400D4BF60 /* Assets.xcassets */,
 				DF5AE18825B2971C00F51628 /* GifTheyFeel.gif */,
@@ -227,7 +227,7 @@
 				DF5AE19025B29CF300F51628 /* RecordViewController.swift in Sources */,
 				DF5B5DAF25B269E000D4BF60 /* AppDelegate.swift in Sources */,
 				DF5B5DB125B269E000D4BF60 /* SceneDelegate.swift in Sources */,
-				DF5AE19325B29F2200F51628 /* ResultViewController.swift in Sources */,
+				DF5AE1CD25B472F100F51628 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
